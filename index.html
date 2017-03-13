@@ -1,0 +1,1139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Shower Presentation Engine</title>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="shower/themes/ribbon/styles/screen-16x10.css">
+</head>
+<body class="shower list">
+	<header class="caption">
+		<h1>Package managers</h1>
+		<p>Puchkov Vladimir, DEWEB Studio</p>
+	</header>
+	<section class="slide" id="cover">
+		<img src="pictures/main.jpg" alt="" class="cover">
+
+		<div class="front-top">
+			<h2>Package managers for Frontend Developer</h2>
+			<p>
+				Puchkov Vladimir, DEWEB Studio
+			</p>
+		</div>
+
+		<style>
+			#cover .front-top {
+				margin-top: 250px;
+			}
+
+			#cover h2 {
+				margin:30px 0 0;
+				color:#000;
+				text-align:center;
+				font-size:70px;
+				text-shadow: 1px 1px 2px white;
+			}
+
+			#cover p {
+				margin:10px 0 0;
+				text-align:center;
+				color:#000;
+				font-style:italic;
+				font-size:20px;
+			}
+		</style>
+	</section>
+
+	<section class="slide">
+		<h2>History. What is the reason?</h2>
+		<img src="pictures/hero.png" alt="">
+		<p>
+			A long time ago in a galaxy far, far away...
+			There was the Frontender Hero, that could make everything. HTML, CSS and JS was piece of cake for him.
+		</p>
+	</section>
+
+	<section class="slide history">
+		<h2>History. What is the reason?</h2>
+		<img src="pictures/hero3.png" alt="" class="hero">
+		<p>He thought... Why? Why I should do all that task by myself. Backend developers are so rude. They think only of themselves...</p>
+		<p>Drupal7, Drupal 8, Twig, style me that, style me this...</p>
+		<p>But I can over wrap all that into div, sorry!</p>
+
+		<style>
+			.hero {
+				margin-right: 20px;
+				float: left;
+			}
+
+			.history p {
+				text-indent: 20px;
+				margin-bottom: 10px;
+			}
+		</style>
+	</section>
+
+	<section class="slide history">
+		<h2>History. What is the reason?</h2>
+		<img src="pictures/hero3.png" alt="" class="hero">
+		<p>He thought... Why? Why I should do all that task by myself. Every time I should install all JS libraries from the begining, search for update, delete previous etc.</p>
+		<p>Why every developer has a package manager, but frontend developer no?</p>
+		<p>I'll fix that! Beware!</p>
+
+		<style>
+			.hero {
+				margin-right: 20px;
+				float: left;
+			}
+
+			.history p {
+				text-indent: 20px;
+				margin-bottom: 10px;
+			}
+		</style>
+	</section>
+
+	<section class="slide history">
+		<h2>History. What is the reason?</h2>
+		<img src="pictures/hero2.png" alt="" class="hero" width="300px">
+		<p>I made my package manager with preferance and accessible female packages!!!</p>
+
+		<style>
+			.hero {
+				margin-right: 20px;
+				float: left;
+			}
+
+			.history p {
+				text-indent: 20px;
+				margin-bottom: 10px;
+			}
+		</style>
+	</section>
+
+	<section class="slide">
+		<h2 class="shout shrink" style="color: white">Bower</h2>
+		<img src="pictures/bower.png" alt="" class="cover">
+	</section>
+
+	<section class="slide">
+		<h2>What is package managers</h2>
+		<p>
+			A <b>package manager</b> or <b>package management system</b> is a collection of software tools that automates the process of installing, upgrading, configuring, and removing computer programs for a computer's operating system in a consistent manner. <br>
+			A package manager deals ffwith packages, distributions of software and data in archive files. 
+		</p>
+	</section>
+
+	<section class="slide">
+		<h2>What is package managers</h2>
+		<p>
+			Packages contain metadata, such as the software's name, description of its purpose, version number, vendor, checksum, and a list of dependencies necessary for the software to run properly.
+			Upon installation, metadata is stored in a local package database. <br>
+			Package managers are designed to eliminate the need for manual installs, search and updates.
+		</p>
+	</section>
+
+	<section class="slide managers">
+		<h2>What is package managers</h2>
+		<p>
+			<ul>
+				<li class="next"><img src="pictures/google-play.jpg"></li>
+				<li class="next"><img src="pictures/clash.jpg"></li>
+				<li class="next"><img src="pictures/appstore.jpg"></li>
+				<li class="next"><img src="pictures/ubuntu.png"></li>
+				<li class="next"><img src="pictures/steam.jpg"></li>
+				<li class="next"><img src="pictures/ruby.png"></li>
+				<li class="next"><img src="pictures/composer.png"></li>
+				<li class="next"><img src="pictures/npm.jpg"></li>
+				<li class="next"><img src="pictures/bower.png"></li>
+			</ul>
+		</p>
+
+		<style type="text/css">
+			.managers {		
+				position: relative;
+			}	
+
+			.managers ul {
+				list-style: none;
+			}
+
+			.managers li {
+				position: absolute;
+			}
+
+			.managers ul>li:before {
+				display: none;
+			}
+
+			.managers li:nth-child(1) {
+				top: 50%;
+				left: 50%;
+			}
+
+			.managers li:nth-child(1) img {
+				width: 300px;
+				height: auto;
+			}
+
+			.managers li:nth-child(2) {
+				top: 50%;
+				left: 50%;
+			}
+
+			.managers li:nth-child(3) {
+				top: 30%;
+				left: 30%;
+			}
+
+			.managers li:nth-child(4) img {
+				width: 500px;
+				height: auto;
+			}
+
+			.managers li:nth-child(4) {
+				top: 10%;
+				left: 10%;
+			}
+
+			.managers li:nth-child(5) {
+				top: 20%;
+				left: 20%;
+			}
+
+			.managers li:nth-child(8) img{
+				width: 500px;
+				height: auto;
+			}
+
+			.managers li:nth-child(9) img{
+				width: 700px;
+				height: auto;
+			}
+
+			.managers li:nth-child(9) {
+				top: -3%;
+				left: 20%;
+			}
+		</style>
+	</section>
+
+	<section class="slide">
+		<img src="pictures/bowerbird.jpg" alt="" class="cover">
+	</section>
+
+	<section class="slide">
+		<h2>Bower: Installation</h2>
+		<ul>
+			<li>node.js <a href="https://nodejs.org/uk/">https://nodejs.org/uk/</a></li>
+			<li>npm <a href="https://www.npmjs.com/">https://www.npmjs.com/</a></li>
+			<li>git <a href="https://git-scm.com/">https://git-scm.com/</a></li>
+		</ul>
+	</section>
+
+	<section class="slide">
+		<h2>Bower: Installation</h2>
+		<pre>
+			<code class="mark">sudo npm install bower -g</code>
+		</pre>
+
+		<p> After install check the version to verify:</p>
+
+		<pre>
+			<code class="mark">bower --version</code>
+			<code class="mark">bower -v</code>
+		</pre>
+
+		<style>
+			.mark {
+				background: rgba(88,90,94,.1) !important;
+			}
+		</style>
+	</section>
+
+	<section class="slide">
+		<h2>Bower: Use</h2>
+		<p>Search package</p>
+		<p> <a href="https://bower.io/search/">https://bower.io/search/</a></p>
+		<pre>
+			<code class="mark">bower search jquery</code>
+			<code class="mark">bower s jquery</code>
+		</pre>
+
+		<p> Installation of the package:</p>
+		<pre>
+			<code class="mark">bower install jquery</code>
+			<code class="mark">bower i jquery</code>
+		</pre>
+
+		<style>
+			.mark {
+				background: rgba(88,90,94,.1) !important;
+			}
+		</style>
+	</section>
+
+	<section class="slide">
+		<h2>Bower: Use</h2>
+		<p>
+			It's important to understand and remember, that it's provide you method of plugin the libraries as AMD and Common.js. It only mount the packages that you need with their dependencies. All other things on sight of developer.
+		</p>
+	</section>
+
+	<section class="slide">
+		<h2>Bower: Use</h2>
+		<p>Check the installed packages</p>
+		<pre>
+			<code class="mark">bower list</code>
+		</pre>
+
+		<p>Information about the installed packages</p>
+		<pre>
+			<code class="mark">bower info</code>
+		</pre>
+
+		<p>Uninstall package</p>
+		<pre>
+			<code class="mark">bower uninstall jquery</code>
+		</pre>
+
+		<style>
+			.mark {
+				background: rgba(88,90,94,.1) !important;
+			}
+		</style>
+	</section>
+
+	<section class="slide">
+		<h2>Bower: Use</h2>
+		<p>Specific version of package</p>
+		<pre>
+			<code class="mark">bower install jquery#1.6.1</code>
+		</pre>
+
+		<p>Updating the package</p>
+		<pre>
+			<code class="mark">bower update jquery</code>
+		</pre>
+
+		<style>
+			.mark {
+				background: rgba(88,90,94,.1) !important;
+			}
+		</style>
+	</section>
+
+	<section class="slide">
+		<h2>Bower: Use</h2>
+		<p>Specific version of package</p>
+		<pre>
+			<code class="mark">bower install jquery#3.1.1</code>
+		</pre>
+
+		<p>Resolution</p>
+		<pre>
+			<code class="mark">Unable to find a suitable version for jquery,</code>
+			<code class="mark"> please choose one by typing one of the numbers below:</code>
+			<code class="mark">1) jquery#^1.0.1 which resolved to 1.12.4 and is required by bower</code>
+			<code class="mark">2) jquery#^3.1.1 which resolved to 3.1.1</code>
+		</pre>
+
+		<style>
+			.mark {
+				background: rgba(88,90,94,.1) !important;
+			}
+		</style>
+	</section>
+
+	<section class="slide">
+		<h2>Bower: Use</h2>
+		<p>Semantic versioning - <a href="http://semver.org/lang/ru/">http://semver.org/lang/ru/</a></p>
+		<p>How to advoid dependencies hell, for backward compatibility</p>
+		<pre>
+			<code class="mark">#2.1.4 =  2.1.4</code>
+			<code class="mark">#~2.1.4 >= 2.1.4 &lt; 2.2.0</code>
+			<code class="mark">#^2.1.4 >= 2.1.4 &lt; 3.0.0</code>
+		</pre>
+
+		<style>
+			.mark {
+				background: rgba(88,90,94,.1) !important;
+			}
+		</style>
+	</section>
+
+	<section class="slide">
+		<h2>Bower: Use</h2>
+		<p>Let's make some practise</p>
+		<pre>
+			<code class="mark">bower i jquery#1.0.1</code>
+			<code class="mark">bower update jquery</code>
+		</pre>
+
+		<p>Add ~ in manifest file</p>
+		<pre>
+			<code class="mark">bower update jquery</code>
+		</pre>
+
+		<style>
+			.mark {
+				background: rgba(88,90,94,.1) !important;
+			}
+		</style>
+	</section>
+
+	<section class="slide">
+		<h2>Bower: Use</h2>
+
+		<p>Change ~ to ^</p>
+		<pre>
+			<code class="mark">bower update jquery</code>
+		</pre>
+		<p>Change ^ to latest</p>
+		<pre>
+			<code class="mark">bower update jquery</code>
+		</pre>
+
+		<style>
+			.mark {
+				background: rgba(88,90,94,.1) !important;
+			}
+		</style>
+	</section>
+
+	<section class="slide">
+		<h2>Bower: Use of Manifest file</h2>
+
+		<p>But the real deal of using bower is implement it with Manifest file.</p>
+		<p>We can add it by hands or with use of command</p>
+		<pre>
+			<code class="mark">bower init</code>
+		</pre>
+
+		<p>Let's take a look closely to this command</p>
+
+		<style>
+			.mark {
+				background: rgba(88,90,94,.1) !important;
+			}
+		</style>
+	</section>
+
+	<section class="slide">
+		<h2>Bower: Use of Manifest file</h2>
+
+		<p><b>name</b> - only field neccessary to be filled, name of the project</p>
+		<p><b>version</b> - three digit number</p>
+		<p><b>author</b> - author of the project</p>
+		<p><b>ignore </b>- ignore pathes, that we want to be ignored</p>
+		<p><b>dependencies</b> - dependencies of your project</p>
+		<p><b>main file</b> - file that will be targeting to the --path that used gulp, grunt</p>
+
+		<style>
+			.mark {
+				background: rgba(88,90,94,.1) !important;
+			}
+		</style>
+	</section>
+
+	<section class="slide">
+		<h2>Bower: Use of Manifest file</h2>
+
+		<p><b>description, keyword</b> - helps to find your package</p>
+		<p><b>licence</b> - licence of using your package</p>
+
+		<style>
+			.mark {
+				background: rgba(88,90,94,.1) !important;
+			}
+		</style>
+	</section>
+
+	<section class="slide">
+		<h2>Bower: Use of Manifest file</h2>
+		<p>Initialize dependencies to manifest file:</p>
+		<pre>
+			<code class="mark">bower init</code>
+		</pre>
+
+		<p>Add dependencies to the file</p>
+		<pre>
+			<code class="mark">"dependencies": {</code>
+    	<code class="mark">  "jquery": "^3.1.1",</code>
+    	<code class="mark">  "snap.svg": "latest"</code>
+  		<code class="mark">}</code>
+		</pre>
+
+		<style>
+			.mark {
+				background: rgba(88,90,94,.1) !important;
+			}
+		</style>
+	</section>
+
+	<section class="slide">
+		<h2>Bower: Use</h2>
+		<p>Then just install</p>
+		<pre>
+			<code class="mark">bower install</code>
+		</pre>
+
+		<p>If we want to add to dependencies</p>
+		<pre>
+			<code class="mark">bower install jquery --save</code>
+			<code class="mark">bower install jquery -S</code>
+		</pre>
+
+		<style>
+			.mark {
+				background: rgba(88,90,94,.1) !important;
+			}
+		</style>
+	</section>
+
+	<section class="slide">
+		<h2>Bower: Use</h2>
+
+		<p>If we want to add to to developer dependencies</p>
+		<pre>
+			<code class="mark">bower install jquery --save-dev</code>
+			<code class="mark">bower install jquery -D</code>
+		</pre>
+
+		<style>
+			.mark {
+				background: rgba(88,90,94,.1) !important;
+			}
+		</style>
+	</section>
+
+	<section class="slide">
+		<h2>Bower: Use</h2>
+
+		<p>Uninstall from project and bower.json</p>
+		<pre>
+			<code class="mark">bower uninstall jquery --save</code>
+			<code class="mark">bower uninstall jquery --save-dev</code>
+			<code class="mark">bower uninstall jquery normalize.css -D</code>
+		</pre>
+
+		<style>
+			.mark {
+				background: rgba(88,90,94,.1) !important;
+			}
+		</style>
+	</section>
+
+	<section class="slide">
+		<h2>Bower: Use</h2>
+
+		<p>Packages with own dependencies</p>
+		<p>For example bootstrap</p>
+		<pre>
+			<code class="mark">bower install jquery#1.0.1 --save</code>
+			<code class="mark">bower i bootstrap -S</code>
+		</pre>
+
+		<style>
+			.mark {
+				background: rgba(88,90,94,.1) !important;
+			}
+		</style>
+	</section>
+
+	<section class="slide">
+		<h2>Bower: Use</h2>
+
+		<p>If we have a conflict in dependencies</p>
+		<pre>
+			<code class="mark">"resolutions": {</code>
+    	<code class="mark">  "jquery": "1.9.1 - 3"</code>
+  		<code class="mark"> }</code>
+		</pre>
+
+		<style>
+			.mark {
+				background: rgba(88,90,94,.1) !important;
+			}
+		</style>
+	</section>
+
+	<section class="slide">
+		<h2>Making own package</h2>
+
+		<p>Let's create own package</p>
+		<ul>
+			<li class="next">bower.json</li>
+			<li class="next">git repository</li>
+			<li class="next">use semantic versioning, tag for version</li>
+		</ul>
+	</section>
+
+	<section class="slide">
+		<h2>Making own package</h2>
+
+		<p>Create git repository for our package</p>
+		<p>Clone it</p>
+		<p>Initialize bower install</p>
+		<pre>
+			<code class="mark">bower init</code>
+		</pre>
+	</section>
+
+	<section class="slide">
+		<h2>Making own package</h2>
+
+		<p>Add file, commit and push with tag</p>
+		<pre>
+			<code class="mark">git add bower.json</code>
+			<code class="mark">git commit -m "Add bower.json"</code>
+			<code class="mark">git tag "v0.0.1"</code>
+			<code class="mark">git push origin master --tags</code>
+			<code class="mark">git register [name] [path to git repository]</code>
+		</pre>
+	</section>
+
+	<section class="slide">
+		<h2>Making own package</h2>
+
+		<p>Remove package from bower</p>
+		<pre>
+			<code class="mark">bower login</code>
+		</pre>
+		<p>Use data from your GIThub</p>
+		<pre>
+			<code class="mark">? Username Vladimir</code>
+			<code class="mark">? Password ********</code>
+			<code class="mark">bower EAUTH         Logged in as VladimirPuchkov</code>
+			<code class="mark">bower unregister [name]</code>
+		</pre>
+	</section>
+
+	<section class="slide">
+		<h2>Remove package from bower</h2>
+		<pre>
+			<code class="mark">? You are about to remove component [name] from the bower</code>
+			<code class="mark">registry (https://bower.herokuapp.com). It is generally considered bad</code>
+			<code class="mark">on behavior to remove versions of a library that</code>
+			<code class="mark">others are depending on. Are you really sure?</code>
+		</pre>
+		<p>YES</p>
+		<img src="pictures/pinguin.png" alt="" width="200px">
+	</section>
+
+	<section class="slide">
+		<h2>Bower API</h2>
+		<p><b>cache</b></p>
+		<pre>
+			<code class="mark">$ bower cache &lt;command> [&lt;args>]</code>
+		</pre>
+		<p>Manage bower cache</p>
+		<p><b>cache clean</b></p>
+		<pre>
+			<code class="mark">$ bower cache clean</code>
+			<code class="mark">$ bower cache clean &lt;name> [&lt;name> ...]</code>
+			<code class="mark">$ bower cache clean &lt;name>#&lt;version> [&lt;name>#&lt;version> ..]</code>
+		</pre>
+	</section>
+
+	<section class="slide">
+		<h2>Bower API</h2>
+		<p><b>cache list</b></p>
+		<p>Lists cached packages</p>
+		<pre>
+			<code class="mark">$ bower cache list</code>
+			<code class="mark">$ bower cache list &lt;name> [&lt;name> ...]</code>
+		</pre>
+	</section>
+
+	<section class="slide">
+		<h2>Bower API</h2>
+		<p><b>help</b></p>
+		<p>Display help information about Bower</p>
+		<pre>
+			<code class="mark">$ bower help &lt;command></code>
+		</pre>
+	</section>
+
+	<section class="slide">
+		<h2>Bower API</h2>
+		<p><b>home</b></p>
+		<p>Opens a package homepage into your favorite browser.</p>
+		<pre>
+			<code class="mark">$ bower info &lt;package></code>
+			<code class="mark">$ bower info &lt;package> [&lt;property>]</code>
+			<code class="mark">$ bower info &lt;package>#&lt;version> [&lt;property>]</code>
+			<code class="mark">$ bower info &lt;package>#&l;tversion> [&l;t;property>] [&lt;options>]</code>
+		</pre>
+		<p>Displays overall information of a package or of a particular version.</p>
+	</section>
+	
+	<section class="slide">
+		<h2>Bower API</h2>
+		<p><b>init</b></p>
+		<p>Interactively create a bower.json file</p>
+		<pre>
+			<code class="mark">$ bower init</code>
+		</pre>
+	</section>
+
+	<section class="slide">
+		<h2>Bower API</h2>
+		<p><b>install</b></p>
+		<p>Installs project dependencies recursively.</p>
+		<pre>
+			<code class="mark">$ bower install [&lt;options>]</code>
+			<code class="mark">$ bower install &lt;endpoint> [&lt;endpoint> ..] [&lt;options>]</code>
+		</pre>
+	</section>
+
+	<section class="slide">
+		<h2>Bower API</h2>
+		<p>When <b>--save</b> flag is used, all additional endpoint are saved to dependencies in bower.json.</p>
+		<p>Endpoints can have multiple forms:</p>
+		<ul>
+			<li>&lt;package></li>
+			<li>&lt;package>#&lt;version></li>
+			<li>&lt;name>=&lt;package>#&lt;version></li>
+		</ul>
+	</section>
+
+	<section class="slide">
+		<h2>Bower API</h2>
+		<p>Where:</p>
+		<ul>
+			<li>&lt;package> is a package URL, physical location or registry name</li>
+			<li>&lt;version> is a valid range, commit, branch, etc</li>
+			<li>&lt;name> is the name it should have locally.</li>
+		</ul>
+	</section>
+
+	<section class="slide">
+		<h2>Bower API</h2>
+		<p>Package can be any one of the following:</p>
+		<table>
+			<tr>
+				<td scope="row">Registered package name</td>
+				<td>jquery<br>normalize.css</td>
+			</tr>
+			<tr>
+				<td>Git endpoint</td>
+				<td>https://github.com/user/package.git<br>git@github.com:user/package.git</td>
+			</tr>
+			<tr>
+				<td>Git endpoint without .git</td>
+				<td>git+https://github.com/user/package<br>git+ssh://git@github.com/user/package</td>
+			</tr>
+			<tr>
+				<td>Local folder</td>
+				<td>my/local/folder/</td>
+			</tr>
+		</table>
+	</section>
+
+	<section class="slide">
+		<h2>Bower API</h2>
+		<p>Package can be any one of the following:</p>
+		<table>
+			<tr>
+				<td>Public Subversion endpoint</td>
+				<td>svn+http://package.googlecode.com/svn/</td>
+			</tr>
+			<tr>
+				<td>Private Subversion endpoint</td>
+				<td>svn+ssh://package.googlecode.com/svn/<br>svn+https://package.googlecode.com/svn/</td>
+			</tr>
+			<tr>
+				<td>Shorthand (defaults to GitHub)</td>
+				<td>user/package</td>
+			</tr>
+		</table>
+	</section>
+
+	<section class="slide">
+		<h2>Bower API</h2>
+		<p>Package can be any one of the following:</p>
+		<table>
+			<tr>
+				<td scope="row">URL</td>
+				<td>http://example.com/script.js<br>http://example.com/style.css<br>http://example.com/package.zip (contents will be extracted)<br>http://example.com/package.tar (contents will be extracted)</td>
+			</tr>
+		</table>
+	</section>
+
+	<section class="slide">
+		<h2>Bower API</h2>
+		<p>A version can be:</p>
+		<table>
+			<tr>
+				<td scope="row">semver version</td>
+				<td>#1.2.3</td>
+			</tr>
+			<tr>
+				<td scope="row">version range</td>
+				<td>#1.2<br>#~1.2.3<br>#^1.2.3<br>#>=1.2.3 &lt;2.0</td>
+			</tr>
+			<tr>
+				<td scope="row">Git tag</td>
+				<td>#&lt;tag></td>
+			</tr>
+			<tr>
+				<td scope="row">Git commit SHA</td>
+				<td>#&lt;sha></td>
+			</tr>
+		</table>
+	</section>
+
+	<section class="slide">
+		<h2>Bower API</h2>
+		<p>A version can be:</p>
+		<table>
+			<tr>
+				<td scope="row">Git branch</td>
+				<td>#&lt;branch></td>
+			</tr>
+			<tr>
+				<td scope="row">Subversion revision</td>
+				<td>#&lt;revision></td>
+			</tr>
+		</table>
+	</section>
+
+	<section class="slide">
+		<h2>Bower API</h2>
+		<p>install options:</p>
+		<ul>
+			<li>-F, --force-latest: Force latest version on conflict</li>
+			<li>-p, --production: Do not install project devDependencies</li>
+			<li>-S, --save: Save installed packages into the project’s bower.json dependencies</li>
+			<li>-D, --save-dev: Save installed packages into the project’s bower.json devDependencies</li>
+			<li>-E, --save-exact: Configure an exact version rather than semver</li>
+		</ul>
+	</section>
+
+	<section class="slide">
+		<h2>Bower API</h2>
+		<p><b>link</b></p>
+		<p>The link functionality allows developers to easily test their packages. Linking is a two-step process.</p>
+		<pre>
+			<code class="mark">$ bower link</code>
+			<code class="mark">$ bower link &lt;name> [&lt;local name>]</code>
+		</pre>
+		<p>Using ‘bower link’ in a project folder will create a global link. Then, in some other package, <b>bower link &lt;name></b> will create a link in the components</p>
+	</section>
+
+	<section class="slide">
+		<h2>Bower API</h2>
+		<p>folder pointing to the previously created link.</p>
+		<p>This allows you to easily test a package because changes will be reflected immediately. When the link is no longer necessary, simply remove it with bower uninstall &lt;name>.</p>
+	</section>
+
+	<section class="slide">
+		<h2>Bower API</h2>
+		<p><b>list</b></p>
+		<p>List local packages and possible updates.</p>
+		<pre>
+			<code class="mark">$ bower list [&lt;options>]</code>
+		</pre>
+		<p>list options</p>
+		<ul>
+			<li>-p, --paths: Generates a simple JSON source mapping</li>
+			<li>-r, --relative: Make paths relative to the directory config property, which defaults to bower_components</li>
+		</ul>
+	</section>
+
+	<section class="slide">
+		<h2>Bower API</h2>
+		<p><b>lookup</b></p>
+		<p>Look up a package URL by name</p>
+		<pre>
+			<code class="mark">$ bower lookup &lt;name></code>
+		</pre>
+	</section>
+
+	<section class="slide">
+		<h2>Bower API</h2>
+		<p><b>login</b></p>
+		<p>Authenticate with GitHub and store credentials. Required to unregister packages.</p>
+		<pre>
+			<code class="mark">$ bower login</code>
+		</pre>
+		<p>login options</p>
+		<ul>
+			<li>-t, --token: Pass an existing GitHub auth token rather than prompting for username and password</li>
+		</ul>
+		<p>https://github.com/settings/tokens</p>
+	</section>
+
+	<section class="slide">
+		<h2>Bower API</h2>
+		<p><b>prune</b></p>
+		<p>Uninstalls local extraneous packages</p>
+		<pre>
+			<code class="mark">$ bower prune</code>
+		</pre>
+	</section>
+
+	<section class="slide">
+		<h2>Bower API</h2>
+		<p><b>register</b></p>
+		<p>Register a package</p>
+		<pre>
+			<code class="mark">$ bower register &lt;name> &lt;url></code>
+		</pre>
+	</section>
+
+	<section class="slide">
+		<h2>Bower API</h2>
+		<p><b>search</b></p>
+		<p>Finds all packages or a specific package.</p>
+		<pre>
+			<code class="mark">$ bower search</code>
+			<code class="mark">$ bower search &lt;name></code>
+		</pre>
+	</section>
+
+	<section class="slide">
+		<h2>Bower API</h2>
+		<p><b>update</b></p>
+		<p>Updates installed packages to their newest version according to bower.json.</p>
+		<pre>
+			<code class="mark">$ bower update &lt;name> [&lt;name> ..] [&lt;options>]</code>
+		</pre>
+		<ul>
+			<li>-F, --force-latest: Force latest version on conflict</li>
+			<li>-p, --production: Do not install project devDependencies</li>
+			<li>-S, --save: Update dependencies in bower.json</li>
+			<li>-D, --save-dev: Update devDependencies in bower.json</li>
+		</ul>
+	</section>
+
+	<section class="slide">
+		<h2>Bower API</h2>
+		<p><b>uninstall</b></p>
+		<p>Uninstalls a package locally from your bower_components directory</p>
+		<pre>
+			<code class="mark">$ bower uninstall &lt;name> [&lt;name> ..] [&lt;options>]</code>
+		</pre>
+		<ul>
+			<li>-S, --save: Remove uninstalled packages from the project’s bower.json dependencies</li>
+			<li>-D, --save-dev: Remove uninstalled packages from the project’s bower.json devDependencies</li>
+		</ul>
+	</section>
+
+	<section class="slide">
+		<h2>Bower API</h2>
+		<p><b>unregister</b></p>
+		<p>Unregisters a package</p>
+		<pre>
+			<code class="mark">$ bower unregister &lt;package></code>
+		</pre>
+	</section>
+
+	<section class="slide">
+		<h2>Bower API</h2>
+		<p><b>version</b></p>
+		<p>Run this in a package directory to bump the version and write the new data back to the bower.json file.</p>
+		<pre>
+			<code class="mark">$ bower version [&lt;newversion> | major | minor | patch]</code>
+		</pre>
+		<p>The newversion argument should be a valid semver string, or a valid second argument to semver.inc (one of “build”, “patch”, “minor”, or “major”). In the second case, the existing version will be incremented by 1</p>
+	</section>
+
+	<section class="slide">
+		<h2>Bower API</h2>
+		<p>in the specified field</p>
+		<p>If run in a git repo, it will also create a version commit and tag, and fail if the repo is not clean.</p>
+		<ul>
+			<li>-m, --message: Custom git commit and tag message</li>
+		</ul>
+		<p>If supplied with --message (shorthand: -m) config option, bower will use it as a commit message when creating a version commit. If the message config contains %s then that will be replaced with the resulting version number.</p>
+	</section>
+
+	<section class="slide">
+		<h2>Bower API Options</h2>
+		<p><b>force</b></p>
+		<p>Makes various commands more forceful</p>
+		<pre>
+			<code class="mark">-f, --force</code>
+		</pre>
+		<ul>
+			<li>bower install --force re-installs all installed components. It also forces installation even when there are non-bower directories with the same name in the components directory. Adding --force also bypasses the cache, and writes to the cache anyway.</li>
+		</ul>
+	</section>
+
+	<section class="slide">
+		<h2>Bower API Options</h2>
+		<ul>
+			<li>bower uninstall <package> --force continues uninstallation even after a dependency conflict</li>
+			<li>bower register <package> --force and bower unregister <package> --force bypasses confirmation. Login is still needed.</li>
+		</ul>
+	</section>
+
+	<section class="slide">
+		<h2>Bower API Options</h2>
+		<p><b>json</b></p>
+		<p>Output consumable JSON</p>
+		<pre>
+			<code class="mark">-j, --json</code>
+		</pre>
+	</section>
+
+	<section class="slide">
+		<h2>Bower API Options</h2>
+		<p><b>loglevel</b></p>
+		<p>What level of logs to report. Possible values: error, conflict, warn, action, info, debug</p>
+		<pre>
+			<code class="mark">-l, --loglevel</code>
+		</pre>
+	</section>
+
+	<section class="slide">
+		<h2>Bower API Options</h2>
+		<p><b>offline</b></p>
+		<p>Do not use network connection</p>
+		<pre>
+			<code class="mark">-o, --offline</code>
+		</pre>
+	</section>
+
+	<section class="slide">
+		<h2>Bower API Options</h2>
+		<p><b>quiet</b></p>
+		<p>Only output important information. It is an alias for --loglevel=warn.</p>
+		<pre>
+			<code class="mark">-q, --quiet</code>
+		</pre>
+	</section>
+
+	<section class="slide">
+		<h2>Bower API Options</h2>
+		<p><b>silent</b></p>
+		<p>Do not output anything, besides errors. It is an alias for --loglevel=error. Silent is also useful if you have private components that might leak credentials to your CI environment.</p>
+		<pre>
+			<code class="mark">-s, --silent</code>
+		</pre>
+	</section>
+
+	<section class="slide">
+		<h2>Bower API Options</h2>
+		<p><b>verbose</b></p>
+		<p>Makes output more verbose. It is an alias for --loglevel=debug.</p>
+		<pre>
+			<code class="mark">-V, --verbose</code>
+		</pre>
+	</section>
+
+	<section class="slide">
+		<h2>Bower API Options</h2>
+		<p><b>allow-root</b></p>
+		<p>Allows running commands as root. Bower is a user command, there is no need to execute it with superuser permissions. However, if you still want to run commands with sudo, use --allow-root option.</p>
+		<pre>
+			<code class="mark">--allow-root</code>
+		</pre>
+	</section>
+
+	<section class="slide">
+		<h2>Bower API Consiming a package</h2>
+		<p>You can use build tools to easily consume Bower packages such as Gulp and Grunt</p>
+		<p>If you use <b>bower list --paths</b> or <b>bower list --paths --json</b>, you will get a simple name-to-path mapping:</p>
+		<pre>
+			<code class="mark">{</code>
+			<code class="mark">  "backbone": "bower_components/backbone/backbone.js",</code>
+			<code class="mark">  "jquery": "bower_components/jquery/dist/jquery.js",</code>
+			<code class="mark">  "underscore": "bower_components/underscore/underscore.js"</code>
+		</pre>
+	</section>
+
+	<section class="slide">
+		<h2>Bower Programmatic API</h2>
+		<p>Bower provides a powerful, programmatic API. All commands can be accessed through the bower.commands object.</p>
+
+		<pre>
+			<code class="mark">var bower = require('bower');</code>
+			<code class="mark">bower.commands</code>
+			<code class="mark"> .install(['jquery'], { save: true }, { /* custom config */ })</code>
+			<code class="mark"> .on('end', function (installed) {</code>
+			<code class="mark">  console.log(installed);</code>
+			<code class="mark">  });</code>
+		</pre>
+	</section>
+
+	<section class="slide">
+		<h2>Bower Running on a continuous integration server</h2>
+		<p>Bower will skip some interactive operations if it finds a CI environmental variable set to true. You will find that the CI variable is already set for you on many continuous integration servers, e.g., CircleCI and Travis-CI. More info <a href="https://bower.io/docs/api/#running-on-a-continuous-integration-server">https://bower.io/docs/api/#running-on-a-continuous-integration-server</a></p>
+	</section>
+
+	<section class="slide">
+		<h2>Bower Tools for furthermore integration</h2>
+		<p>Bower is used together with other tools to integrate with all sorts of setups and workflows. Gulp, Grunt, Rails, Ruby, Java, Apps & IDEs and more <a href="https://bower.io/docs/tools/">https://bower.io/docs/tools/</a></p>
+	</section>
+
+	<section class="slide">
+		<h2>Bower Configuration</h2>
+		<p>Bower can be configured using JSON in a .bowerrc file. For example:</p>
+		<pre>
+			<code class="mark">{</code>
+			<code class="mark"> "directory": "app/components/",</code>
+			<code class="mark"> "timeout": 120000,</code>
+			<code class="mark"> "registry": {</code>
+			<code class="mark">    "search": [</code>
+			<code class="mark">      "http://localhost:8000",</code>
+			<code class="mark">      "https://bower.herokuapp.com"</code>
+		</pre>
+	</section>
+
+	<section class="slide">
+		<h2>Bower Configuration</h2>
+		<p>The config is obtained by merging multiple configurations by this order of importance</p>
+		<ul>
+			<li>CLI arguments via --config</li>
+			<li>Environment variables</li>
+			<li>Local .bowerrc located in the current working directory</li>
+			<li>All .bowerrc files upwards the directory tree</li>
+			<li>.bowerrc file located in user’s home folder (~)</li>
+			<li>.bowerrc file located in the global folder (/)</li>
+		</ul>
+	</section>
+
+	<section class="slide">
+		<h2>Bower Configuration</h2>
+		<p>More about configuration</a></p>
+		<p><a href="https://bower.io/docs/config/">https://bower.io/docs/config/</p>
+		<p><a href="https://github.com/bower/spec/blob/master/config.md">https://github.com/bower/spec/blob/master/config.md</a></p>
+	</section>
+
+	<section class="slide">
+		<h2>Bower Pluggable Resolvers</h2>
+		<p>Pluggable resolvers allow you to use resolvers created by 3rd party JavaScript developers — including overriding default resolvers used by Bower. More <a href="https://bower.io/docs/pluggable-resolvers/">https://bower.io/docs/pluggable-resolvers/</a></p>
+		<ul>
+			<li>Handling Mercurial or Bazaar repositories</li>
+			<li>Speeding up checkouts of services like GitLab or Bitbucket</li>
+			<li>Allowing to use packages from npm or component.io</li>
+			<li>Proxying downloads through 3rd party service like Artifactory or Nexus Repository</li>
+		</ul>
+	</section>
+
+	<section class="slide">
+		<img class="shout shrink" src="pictures/npm.svg" alt="">
+	</section>
+
+	<section class="slide">
+		<h2>Why npm?</h2>
+		<p>The main difference npm from Bower -  way of mounting dependencies of packeges. npm install them for every package separately. So we have something like that <b>node_modules/grunt/node_modules/glob/node_modules/…</b> where can be several versions of the same package. In the client JS this is forbidden: you can't plug two different versions of the same library of jQuery for example. In the Bower we have only one version of the package, Bower will depricate this, to warn us.</p>
+	</section>
+
+	<section class="slide">
+		<h1 class="shout shrink">Why it is useful for frontend?</h1>
+	</section>
+	<!--
+		To hide progress bar from entire presentation
+		just remove “progress” element.
+		-->
+	<div class="progress"></div>
+	<script src="shower/shower.min.js"></script>
+	<!-- Copyright © 2015 Yours Truly, Famous Inc. -->
+	<!-- Photos by John Carey, fiftyfootshadows.net -->
+</body>
+</html>
